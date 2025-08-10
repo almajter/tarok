@@ -1,0 +1,16 @@
+th, td {
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+}
+th {
+    background: #f0f0f0;
+}
+button {
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: 1px solid #d0d0d0;
+    background: #f7f7f7;
+    cursor: pointer;
+}
+button:hover { background: #efefef; }
+button:disabled { opacity: 0.5; cursor: not-allowed; }
